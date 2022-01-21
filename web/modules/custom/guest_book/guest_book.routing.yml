@@ -1,0 +1,8 @@
+guest_book.content:
+  path: '/guest-book'
+  defaults:
+    _title: 'Guest Book'
+    _form: '\Drupal\guest_book\Form\GuestBookForm'
+    _controller: '\Drupal\guest_book\Controller\PageController::build'
+  requirements:
+    _permission: 'access content'
