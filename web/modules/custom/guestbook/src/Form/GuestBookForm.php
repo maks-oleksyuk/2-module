@@ -36,7 +36,7 @@ class GuestBookForm extends FormBase {
     $form['email'] = [
       '#type' => 'email',
       '#required' => TRUE,
-      '#description' => '',
+      '#description' => ' ',
       '#title' => $this->t('Your email:'),
       '#placeholder' => $this->t("name@example.com"),
       '#ajax' => [
